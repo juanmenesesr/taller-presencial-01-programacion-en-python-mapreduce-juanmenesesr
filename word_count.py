@@ -12,7 +12,7 @@
 #     ...
 #     ('text2.txt'. 'hypotheses.')
 #   ]
-# JUAN MANUEL MENESES RUEDA 
+# JUAN MANUEL MENESES 
 
 import glob
 import fileinput
