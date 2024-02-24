@@ -12,7 +12,8 @@
 #     ...
 #     ('text2.txt'. 'hypotheses.')
 #   ]
-#
+# JUAN MANUEL MENESES RUEDA 
+
 import glob
 import fileinput
 
@@ -50,7 +51,7 @@ def mapper(sequence):
         words = text.split()
         for word in words:
             word= word.replace(",", "")
-            
+            word= word.replace(".", "")
             tupla=(word,1)
             new_sequence.append(tupla )
     return  new_sequence
